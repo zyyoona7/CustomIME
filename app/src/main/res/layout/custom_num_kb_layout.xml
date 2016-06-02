@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ll_custom_num_layout">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:divider="@drawable/linear_layout_divider"
+        android:showDividers="middle">
+
+        <Button
+            android:id="@+id/id_btn_one"
+            android:text="1"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_two"
+            android:text="2"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_three"
+            android:text="3"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_four"
+            android:text="4"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_five"
+            android:text="5"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_six"
+            android:text="6"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_seven"
+            android:text="7"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_eight"
+            android:text="8"
+            style="@style/Custom_Keyboard_character"/>
+
+        <Button
+            android:id="@+id/id_btn_nine"
+            android:text="9"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_zero"
+            android:text="0"
+            style="@style/Custom_Keyboard_character" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:divider="@drawable/linear_layout_divider"
+        android:showDividers="middle">
+
+        <ImageButton
+            android:id="@+id/id_btn_return"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_11"
+            android:enabled="false"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_12"
+            android:enabled="false"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_13"
+            android:enabled="false"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_14"
+            android:enabled="false"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_15"
+            android:enabled="false"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_16"
+            android:enabled="false"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_17"
+            android:enabled="false"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_18"
+            android:enabled="false"
+            style="@style/Custom_Keyboard_character" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:divider="@drawable/linear_layout_divider"
+        android:showDividers="middle"
+        >
+
+        <Button
+            android:id="@+id/id_btn_english"
+            android:text="英文"
+            style="@style/Custom_Keyboard_Space"
+            />
+
+        <Button
+            android:id="@+id/id_btn_20"
+            android:enabled="false"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_21"
+            android:enabled="false"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_22"
+            android:enabled="false"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_23"
+            android:enabled="false"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_24"
+            android:enabled="false"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_25"
+            style="@style/Custom_Keyboard_character"
+            android:enabled="false"
+             />
+
+        <Button
+            android:id="@+id/id_btn_26"
+            android:enabled="false"
+            style="@style/Custom_Keyboard_character" />
+
+        <Button
+            android:id="@+id/id_btn_num_space"
+            style="@style/Custom_Keyboard_Space"
+            android:text="空格"
+            />
+    </LinearLayout>
+</LinearLayout>

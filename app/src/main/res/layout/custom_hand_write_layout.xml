@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/id_rl_hand_write_layout">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray">
+
+        <com.googlecode.openwnn.legacy.handwritingboard.HandWritingBoardLayout
+            android:id="@+id/id_hand_write_board"
+            android:layout_width="300dp"
+            android:layout_height="130dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/id_btn_wipe_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="擦出重写" />
+</RelativeLayout>

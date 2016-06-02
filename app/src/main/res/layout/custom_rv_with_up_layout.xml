@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/id_ll_rv_more">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/id_recycler_view_more"
+        android:background="@color/candidate_text">
+
+    </android.support.v7.widget.RecyclerView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="向上收起"
+        android:id="@+id/id_btn_up_rv"
+        android:textColor="@android:color/white"
+        android:background="@color/candidate_text"
+        />
+</LinearLayout>

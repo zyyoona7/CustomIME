@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <include layout="@layout/custom_candidate_view_layout"
+                android:id="@+id/id_custom_candidate_layout"
+                android:layout_width="545dp"
+                android:layout_height="wrap_content"
+                />
+            <include layout="@layout/custom_edit_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_custom_edit"
+                android:layout_alignRight="@id/id_custom_candidate_layout"
+                android:layout_below="@id/id_custom_candidate_layout"/>
+            <include layout="@layout/custom_english_kb_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/id_custom_edit"
+                android:id="@+id/id_custom_keyboard"
+                android:visibility="gone"
+                android:layout_alignRight="@id/id_custom_candidate_layout"
+                />
+            <include layout="@layout/custom_hand_write_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/id_custom_edit"
+                android:id="@+id/id_custom_hand_write"
+                android:visibility="gone"
+                android:layout_alignRight="@id/id_custom_candidate_layout"
+                />
+            <include layout="@layout/custom_num_kb_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/id_custom_edit"
+                android:id="@+id/id_custom_num"
+                android:layout_alignRight="@id/id_custom_candidate_layout"
+                />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_alignTop="@id/id_custom_edit"
+                android:layout_alignParentRight="true"
+                >
+
+                <RadioButton
+                    android:id="@+id/id_rb_english"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="英文"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+                <RadioButton
+                    android:id="@+id/id_rb_pinyin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="拼音"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:layout_marginTop="35dp"/>
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+                <RadioButton
+                    android:id="@+id/id_rb_hand_write"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="手写"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:layout_marginTop="35dp"/>
+
+            </RadioGroup>
+        </RelativeLayout>
+
+        <include
+            layout="@layout/custom_rv_with_up_layout"
+            android:layout_width="545dp"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+    </FrameLayout>
+
